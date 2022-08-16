@@ -17,34 +17,35 @@
     <div class="grid grid-cols-3 gap-4  w-9/12  mx-auto text-white">
        <div class="bg-green-500 p-8 rounded-xl">
           <h4 class="text-3xl">Deposit</h4>
-          <h2 class="text-5xl">$00</h2>
+          <h2  class="text-5xl">$<span id="deposit-total">00</span> </h2>
        </div>
        <div class="bg-pink-400 p-8 rounded-xl">
           <h4 class="text-3xl">Window</h4>
-          <h2 class="text-5xl">$00</h2>
+          <h2 class="text-5xl">$ <span>00</span> </h2>
        </div>
        <div class="bg-red-400 p-8 rounded-xl">
           <h4 class="text-3xl ">Balance</h4>
-          <h2 class="text-5xl">$1240</h2>
+          <h2 class="text-5xl">$<span id="total-blance">1200</span></h2>
        </div>
     </div>
   </section>
   <!-- diposit and windrow -->
    <section class="mt-12" >
-    <div class="grid grid-cols-2 gap-4  w-9/12  mx-auto text-white">
-      <div class="bg-sky-500 p-8 rounded-xl">
-         <h4 class="text-3xl mb-4">Please Deposit</h4>
+    <div class="grid grid-cols-2 gap-4  w-9/12  mx-auto ">
+      <div class="bg-sky-500 p-8 rounded-xl ">
+         <h4 class="text-3xl mb-4 text-white">Please Deposit</h4>
         <input class="w-9/12 block mb-2 px-3 rounded-sm " type="text" name=""    id="diposit-filde" placeholder="$Amount we want to deposit" >
         <button id="btn-deposit" class="bg-amber-500 px-12 py-2.5 text-white  font-medium rounded-lg hover:bg-violet-600" >Deposit
         </button>
       </div>
       <div class="bg-cyan-700 p-8 rounded-xl">
-         <h4 class="text-3xl mb-4">Please Windrow</h4>
+         <h4 class="text-3xl mb-4 text-white">Please Windrow</h4>
          <input class="w-9/12 block mb-2 px-3 rounded-sm " type="text" name="" id="user-email" placeholder="$Amount we want to windrow" >
          <button id="btn-windrow" class="bg-amber-500 px-12 py-2.5 text-white font-medium rounded-lg hover:bg-violet-600" >Windrow</button>
       </div>
    </div>
    </section>
  </main>
+ <script src="jsDeposit.js"></script>
 </body>
 </html>
